@@ -1,6 +1,6 @@
-import { HeroButton } from "@/components/ui/hero-button"
-import { Github, Linkedin, Mail, Phone, MapPin } from "lucide-react"
-import dohaProfile from "@/assets/doha-profile.jpg"
+import { HeroButton } from "@/components/ui/hero-button";
+import { Github, Linkedin, Mail, Phone } from "lucide-react";
+import myPhoto from "@/assets/myPhoto.jpg"; // حطي صورتك هنا
 
 export const Hero = () => {
   return (
@@ -50,7 +50,7 @@ export const Hero = () => {
                  className="p-3 rounded-lg bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-glow-primary group">
                 <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/doha-abdelrahman-3540292a5" target="_blank" rel="noopener noreferrer"
                  className="p-3 rounded-lg bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-glow-primary group">
                 <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
@@ -58,7 +58,7 @@ export const Hero = () => {
                  className="p-3 rounded-lg bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-glow-primary group">
                 <Mail className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
-              <a href="tel:01029474155"
+              <a href="tel:+201029474155"
                  className="p-3 rounded-lg bg-card hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:shadow-glow-primary group">
                 <Phone className="w-5 h-5 group-hover:scale-110 transition-transform" />
               </a>
@@ -70,7 +70,7 @@ export const Hero = () => {
             <div className="relative">
               <div className="w-80 h-80 rounded-full bg-hero-gradient p-1 animate-glow">
                 <img 
-                  src={dohaProfile}
+                  src={myPhoto}
                   alt="Doha Abdelrahman - Data Scientist"
                   className="w-full h-full rounded-full object-cover bg-card"
                 />
